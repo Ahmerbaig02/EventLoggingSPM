@@ -13,4 +13,6 @@ public protocol EventsBaseProtocol {
     
     
     var eventParams: [String: Any] { get }
+    
+    var isBigQueryEventUppercased: Bool { get }
 }
